@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Header-->
-    <header style="background-image: url('../img/background-home.jpg');">
+    <header style="background-image: url('../img/home.PNG');">
         <!-- Container -->
         <div class="container">
             <nav>
@@ -27,13 +27,19 @@
                     <a href="Sobre.html">Sobre</a>
                     <a href="servicos.html">serviços</a>
                     <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
                 </ul>
+                <div class="menu-icon"  onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
                     <h1>Instituto da criança e do adolecente</h1>
                     <p>Utilizar todo o conhecimento disponível e criar novos conhecimentos para ajudar a construir um mundo cada vez melhor, onde as doenças onco-hematológicas, enquanto existirem, sejam apenas uma crise passageira na vida de crianças e adolescentes</p>
-                    <a href="contato.html" class="btn animate-btn">Entrer em Contato</a>
+                    <a href="contato.html" class="btn animate-btn">Entrar em Contato</a>
                 </div>
             </section>
         </div>
@@ -45,14 +51,14 @@
         <!--Container-->
         <div class="container">
             <div class="faca-mais-text">
-                <h3>Faça mais com whitepace</h3>
+                <h3>Faça mais com o ICR</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut hic eaque accusamus tenetur eveniet aliquid delectus vitae, dicta dolores
                 </p>
                 <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
             </div> 
            <div class="faca-mais-img">
-                <img src="../img/img-1.png" alt="">
+                <img src="../img/faca mais01.jpg" alt="" style="border-radius: 10px;">
            </div>
         </div>
         <!-- end-Container-->
@@ -66,9 +72,9 @@
                 <img src="../img/img-2.png" alt="">
            </div>
             <div class="faca-mais-text">
-                <h3>Ter um Website nunca foi tão facil</h3>
+                <h3>Centro de referência</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut hic eaque accusamus tenetur eveniet aliquid delectus vitae, dicta dolores
+                    O Instituto da Criança é centro de referência para a América do Sul no tratamento de diversas doenças complexas do recém-nascido, criança e adolescente
                 </p>
                 <a href="contato.html" class="btn">Entrar em contato</a>
             </div>       
@@ -164,9 +170,9 @@
     <footer class="footer">
         <div class="container">
             <div class="links">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="https://m.facebook.com/hospitaldasclinicasdafmusp" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a  href="https://instagram.com/hospitalhcfmusp?igshid=MXdsZm9pY2R6bWhkcw==" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/hospitalHCFMUSP"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
             </div>
             <p>Desenvolvido por BigFive</p>
@@ -174,6 +180,6 @@
     </footer>
     <!-- end Footer -->
         
-    
+    <script src="../js/main.js"></script>
 </body>
 </html>
