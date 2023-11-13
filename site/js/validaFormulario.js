@@ -1,15 +1,3 @@
-let ul = document.querySelector('nav .ul');
-
-function openMenu(){
-    ul.classList.add('open');
-}
-
-function closeMenu(){
-    ul.classList.remove('open');
-}
-
-//Validação de formulario
-
 const campoNome = document.getElementById('formulario-nome')
 const campoEmail = document.getElementById('formulario-email')
 const campoAssunto = document.getElementById('formulario-assunto')
