@@ -64,14 +64,14 @@ function erro() {
     formularioSubmetido("Erro ao preencher um dos campos", "erro")
 }
 
-botao.addEventListener('click', (event) => {
+function onSubmit(event) {
     event.preventDefault()
     if (!verificaCampo(campoNome.value) || !verificaCampo(campoAssunto.value) || !verificaCampo(campoMensagem.value) || !verificaEmail(campoEmail.value)) {
         erro()
     } else {
         sucesso()
     }
-})
+}
 
 //Evento de clique nos cards
 
