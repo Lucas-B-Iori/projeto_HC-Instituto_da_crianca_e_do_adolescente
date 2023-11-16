@@ -91,3 +91,5 @@ function fecharModal(cardId) {
     fade.classList.add('none')
     modal.classList.add('none')
 }
+
+
