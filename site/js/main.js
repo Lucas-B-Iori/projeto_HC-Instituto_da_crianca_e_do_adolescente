@@ -72,3 +72,22 @@ botao.addEventListener('click', (event) => {
         sucesso()
     }
 })
+
+//Evento de clique nos cards
+
+function abrirModal(cardId) {
+    const card = document.querySelector(`#${cardId}`)
+
+    const fade = card.querySelector('#fade')
+    const modal = card.querySelector('#modal')
+    fade.classList.remove('none')
+    modal.classList.remove('none')
+}
+
+function fecharModal(cardId) {
+    const card = document.querySelector(`#${cardId}`)
+    const fade = card.querySelector('#fade')
+    const modal = card.querySelector('#modal')
+    fade.classList.add('none')
+    modal.classList.add('none')
+}

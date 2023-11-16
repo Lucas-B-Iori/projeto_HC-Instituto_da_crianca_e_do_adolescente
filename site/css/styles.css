@@ -312,15 +312,19 @@ nav .close-icon{
     justify-content: center;
     margin-top: 20px;
     flex-wrap: wrap;
+    /* align-items: stretch; */
 }
 
 .exames .row-card-item{
     background-color: #d3e6fd;
     width: 350px;
+    height: 350px;
+
     padding: 20px;
     border-radius: 14px;
     margin: 20px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .exames .row-card-item:hover{
@@ -345,6 +349,53 @@ nav .close-icon{
     border-radius: 14px;
     width: 70px;
     padding: 9px;
+}
+
+.exames .modal-item {
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #000;
+    z-index: 2;
+    background-color: #fff;
+    /* padding: 23px; */
+}
+
+.exames .modal-item__header {
+    background-color: #949494;
+    text-align: right;
+    padding: 8px;
+    border-bottom: 1px solid #000;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.exames .modal-item__header span {
+    padding-right: 14px;
+    cursor: pointer;
+}
+
+.exames .modal-item__body {
+    padding: 12px;
+}
+
+.exames .fade {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.exames .none {
+    display: none;
 }
 /*dados*/
 .dados{
