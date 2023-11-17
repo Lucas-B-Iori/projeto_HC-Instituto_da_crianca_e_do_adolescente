@@ -324,7 +324,6 @@ nav .close-icon{
     border-radius: 14px;
     margin: 20px;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .exames .row-card-item:hover{
@@ -349,6 +348,26 @@ nav .close-icon{
     border-radius: 14px;
     width: 70px;
     padding: 9px;
+}
+
+.exames .row-card-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.exames .btn-video {
+    background: #253f59;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-video-img {
+    max-width: 20px;
+    max-height: 20px;
 }
 
 .exames .modal-item {
@@ -395,6 +414,10 @@ nav .close-icon{
 }
 
 .exames .none {
+    display: none;
+}
+
+.ytp-chrome-top, .ytp-show-cards-title, .ytp-shorts-title-channel, .ytp-title {
     display: none;
 }
 /*dados*/

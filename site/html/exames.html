@@ -55,9 +55,16 @@
                 <!-- Row card1 -->
                 <div class="row-card" id="card1">
                     <!--Row card item1-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card1')">
-                        <img src="../img/consultando (1).png" alt="">
-                        <p class="nome-exame"><strong>Tomografia</strong></p>
+                    <div class="row-card-item" id="item">
+                        <div class="row-card-item-header">
+                            <div>
+                                <img src="../img/consultando (1).png" alt="">
+                                <p class="nome-exame"><strong>Tomografia</strong></p>
+                            </div>
+                            <button class="btn animate-btn btn-video" onclick="abrirModal('card1')">
+                                <img class="btn-video-img" src="../img/play-button_icon-icons.com_69323.png" alt="">
+                            </button>
+                        </div>
                         <p class="descricao-exame">
                             A tomografia é uma técnica de imagem médica que utiliza raios X para criar imagens detalhadas de estruturas internas do corpo. Ao capturar múltiplas imagens de diferentes ângulos, um computador reconstrói uma representação tridimensional das regiões analisadas, Além de ser indolor, é um exame não invasivo, simples e rápido.?
                         </p>
@@ -72,10 +79,10 @@
                             </span>
                         </div>
                         <div class="modal-item__body">
-                            <iframe 
-                                class="modal-body__video"
+                            <iframe
+                                id="video"
                                 width="720" height="400" 
-                                src="https://www.youtube.com/embed/YhFSc-Xysps?si=efLjWjw0vdCiTXG6" 
+                                src="https://www.youtube.com/embed/1g3UjPxAZ80?si=oc41tDqAeLVS6oBo" 
                                 title="YouTube video player" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
@@ -89,9 +96,17 @@
                 <!-- Row card2 -->
                 <div class="row-card" id="card2">
                     <!--Row card item2-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card2')">
-                        <img src="../img/estetoscopio.png" alt="">
-                        <p class="nome-exame"><strong>ressonância magnética</strong></p>
+                    <div class="row-card-item" id="item">
+                        <div class="row-card-item-header">
+                            <div>
+                                <img src="../img/estetoscopio.png" alt="">
+                                <p class="nome-exame"><strong>ressonância magnética</strong></p>
+                            </div>
+                            <button class="btn animate-btn btn-video" onclick="abrirModal('card2')">
+                                <img class="btn-video-img" src="../img/play-button_icon-icons.com_69323.png" alt="">
+                            </button>
+                        </div>
+        
                         <p class="descricao-exame">
                             A ressonância magnética é uma técnica avançada de imagem médica que utiliza campos magnéticos e ondas de rádio para criar imagens detalhadas das estruturas internas do corpo. Ao distinguir características dos tecidos, proporciona diagnósticos precisos, indolores e não invasivos, sem o uso de radiação ionizante.
                         </p>
@@ -106,7 +121,8 @@
                             </span>
                         </div>
                         <div class="modal-item__body">
-                            <iframe 
+                            <iframe
+                                id="video"
                                 width="720" height="400" 
                                 src="https://www.youtube.com/embed/h_4ORtpIhPQ?si=GJnduIAoJFDHRFXk" 
                                 title="YouTube video player" frameborder="0" 
@@ -122,9 +138,18 @@
                 <!-- Row card3 -->
                 <div class="row-card" id="card3">
                     <!--Row card item3-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card3')">
-                        <img src="../img/protecao (1).png" alt="">
-                        <p class="nome-exame"><strong>exame de sangue</strong></p>
+                    <div class="row-card-item" id="item">
+                        <div class="row-card-item-header">
+                            <div>
+                                <img src="../img/protecao (1).png" alt="">
+                                <p class="nome-exame"><strong>exame de sangue</strong></p>
+                            </div>
+                            <button class="btn animate-btn btn-video" onclick="abrirModal('card3')">
+                                <img class="btn-video-img" src="../img/play-button_icon-icons.com_69323.png" alt="">
+                            </button>
+                        </div>
+
+                        
                         <p class="descricao-exame">
                             O hemograma é um tipo de exame de sangue que avalia as células que compõe o tecido sanguíneo. Método em que faz-se necessário a perfuração do indivíduo para o colhimento do material de estudo.
                         </p>
@@ -139,9 +164,10 @@
                             </span>
                         </div>
                         <div class="modal-item__body">
-                            <iframe 
+                            <iframe
+                                id="video"
                                 width="720" height="400" 
-                                src="https://www.youtube.com/embed/Ph9Maz50HLc?si=9Y7ylJtl3t9bEdi8" 
+                                src="https://www.youtube.com/embed/YhFSc-Xysps?si=efLjWjw0vdCiTXG6" 
                                 title="YouTube video player" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
@@ -155,9 +181,18 @@
                 <!-- Row card4 -->
                 <div class="row-card" id="card4">
                     <!--Row card item 4-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card4')">
-                        <img src="../img/medico.png" alt="">
-                        <p class="nome-exame"><strong>ultrassom</strong></p>
+                    <div class="row-card-item" id="item">
+                        <div class="row-card-item-header">
+                            <div>
+                                <img src="../img/medico.png" alt="">
+                                <p class="nome-exame"><strong>ultrassom</strong></p>
+                            </div>
+                            <button class="btn animate-btn btn-video" onclick="abrirModal('card4')"> 
+                                <img class="btn-video-img" src="../img/play-button_icon-icons.com_69323.png" alt="">
+                            </button>
+                        </div>
+
+                        
                         <p class="descricao-exame">
                             O ultrassom é uma técnica de imagem médica que utiliza ondas sonoras de alta frequência para criar imagens em tempo real das estruturas internas do corpo. Essas ondas sonoras são emitidas por um transdutor e refletidas pelos tecidos, gerando imagens que ajudam no diagnóstico de condições médicas. É um método seguro, não invasivo e indolor.
 
@@ -173,9 +208,10 @@
                             </span>
                         </div>
                         <div class="modal-item__body">
-                            <iframe 
+                            <iframe
+                                id="video"
                                 width="720" height="400" 
-                                src="https://www.youtube.com/embed/JAyr5jsa3yI?si=jpnorKC5LB4UkbYU" 
+                                src="https://www.youtube.com/embed/Ph9Maz50HLc?si=9Y7ylJtl3t9bEdi8" 
                                 title="YouTube video player" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
@@ -189,9 +225,18 @@
                 <!-- Row card5 -->
                 <div class="row-card" id="card5">
                     <!--Row card item 5-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card5')">
-                        <img src="../img/exame-de-saude.png" alt="">
-                        <p class="nome-exame"><strong>hemodiálise</strong></p>
+                    <div class="row-card-item" id="item">
+                        <div class="row-card-item-header">
+                            <div>
+                                <img src="../img/exame-de-saude.png" alt="">
+                                <p class="nome-exame"><strong>hemodiálise</strong></p>
+                            </div>
+                            <button class="btn animate-btn btn-video" onclick="abrirModal('card5')">
+                                <img class="btn-video-img" src="../img/play-button_icon-icons.com_69323.png" alt="">
+                            </button>
+                        </div>
+
+                        
                         <p class="descricao-exame">
                             A hemodiálise é um procedimento médico utilizado para filtrar o sangue em pacientes com insuficiência renal. Durante a hemodiálise, o sangue é retirado do corpo, passa por um filtro (dialisador) que remove resíduos e excesso de fluidos, e é então devolvido ao organismo.
                         </p>
@@ -206,9 +251,10 @@
                             </span>
                         </div>
                         <div class="modal-item__body">
-                            <iframe 
+                            <iframe
+                                id="video" 
                                 width="720" height="400" 
-                                src="https://www.youtube.com/embed/efgxbmmFoP0?si=-NMYyOJZdnopWXVz" 
+                                src="https://www.youtube.com/embed/JAyr5jsa3yI?si=jpnorKC5LB4UkbYU" 
                                 title="YouTube video player" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
@@ -222,9 +268,18 @@
                 <!-- Row card6 -->
                 <div class="row-card" id="card6">
                     <!--Row card item 6-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card6')">
-                        <img src="../img/farmacia.png" alt="">
-                        <p class="nome-exame"><strong>Transplantes</strong></p>
+                    <div class="row-card-item" id="item">
+                        <div class="row-card-item-header">
+                            <div>
+                                <img src="../img/farmacia.png" alt="">
+                                <p class="nome-exame"><strong>Transplantes</strong></p> 
+                            </div>
+                            <button class="btn animate-btn btn-video" onclick="abrirModal('card6')">
+                                <img class="btn-video-img" src="../img/play-button_icon-icons.com_69323.png" alt="">
+                            </button>
+                        </div>
+
+                        
                         <p class="descricao-exame">
                             Os transplantes são procedimentos médicos que envolvem a substituição de um órgão ou tecido danificado por um saudável, proveniente de um doador vivo ou falecido. Este é um tratamento viável para várias condições médicas que resultam em falha de órgãos. Alguns dos transplantes mais comuns incluem os de rim, fígado, coração, pulmão e pâncreas. O ICR faz trasplantes de Células Tronco-Hrmatopoiéticas, renal e heático.
                         </p>
@@ -239,10 +294,10 @@
                             </span>
                         </div>
                         <div class="modal-item__body">
-                            <iframe 
-                                class="modal-body__video"
+                            <iframe
+                                id="video"
                                 width="720" height="400" 
-                                src="https://www.youtube.com/embed/YhFSc-Xysps?si=efLjWjw0vdCiTXG6" 
+                                src="https://www.youtube.com/embed/efgxbmmFoP0?si=-NMYyOJZdnopWXVz" 
                                 title="YouTube video player" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
