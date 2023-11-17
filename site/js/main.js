@@ -95,7 +95,4 @@ function fecharModal(cardId) {
     pausarVideo(videoIframe)
 }
 
-function pausarVideo(video) {
-    const videoURL = video.src;
-    video.src = videoURL;
-}
+

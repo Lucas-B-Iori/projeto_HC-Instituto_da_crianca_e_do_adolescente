@@ -413,6 +413,7 @@ nav .close-icon{
     z-index: 1;
 }
 
+
 .exames .none {
     display: none;
 }
@@ -676,7 +677,7 @@ nav .close-icon{
 
     .contato-info .right-side,
     .contato-info .left-side{
-        width: 100%;
+        width: 85%;
     }
 
     .contato-info .right-side{
@@ -685,6 +686,11 @@ nav .close-icon{
 
     .sucesso, .erro {
         width: 52vw;
+    }
+
+    .certificados .container img{
+        width: 90px;
+        margin-top: 10px;
     }
 }
 
