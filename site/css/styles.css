@@ -163,6 +163,25 @@ nav .close-icon{
     width: 100%;
 }
 
+/*Video de apresentação*/
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 para vídeos widescreen */
+    overflow: hidden;
+    border-radius: 10px; /* Adicione o valor que preferir para bordas arredondadas */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Mantenha o mesmo valor para coincidir com as bordas do contêiner */
+}
+
+
 /*cards*/
 .depoimentos h3{
     text-align: center;
