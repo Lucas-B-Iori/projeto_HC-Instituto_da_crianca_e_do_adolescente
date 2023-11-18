@@ -163,6 +163,10 @@ nav .close-icon{
     width: 100%;
 }
 
+.faca-mais .faca-mais-text p{
+    text-align: justify;
+}
+
 /*Video de apresentação*/
 .video-container {
     position: relative;
@@ -314,6 +318,9 @@ nav .close-icon{
     border-radius: 10px;
 }
 
+.sobre .sobre-text{
+    text-align: justify;
+}
 
 /*end pagina sobre*/
 
