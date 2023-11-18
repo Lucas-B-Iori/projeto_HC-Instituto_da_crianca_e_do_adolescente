@@ -377,6 +377,31 @@ nav .close-icon{
     padding: 9px;
 }
 
+.exames .row-card-item {
+    position: relative;
+}
+
+.exames .row-card-item .play-button {
+    position: absolute;
+    top: 30px; /* Ajuste a posição conforme necessário */
+    right: 30px; /* Ajuste a posição conforme necessário */
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+/* Adicione estilos de hover para o botão de play se desejar */
+.exames .row-card-item .play-button:hover {
+    color: #4f9cf9;
+}
+
 .exames .modal-item {
     position: fixed;
     top: 15%;
