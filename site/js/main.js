@@ -84,6 +84,20 @@ function abrirModal(cardId){
     modal.classList.remove('none')
 }
 
+<<<<<<< HEAD
+=======
+function fecharModal(cardId) {
+    const card = document.querySelector(`#${cardId}`)
+    const fade = card.querySelector('#fade')
+    const modal = card.querySelector('#modal')
+    const videoIframe = card.querySelector('#video')
+    fade.classList.add('none')
+    modal.classList.add('none')
+    
+    pausarVideo(videoIframe)
+}
+
+>>>>>>> parent of c3377a2 (dasdsa)
 function pausarVideo(video) {
     const videoURL = video.src;
     video.src = videoURL;
