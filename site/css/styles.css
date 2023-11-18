@@ -350,6 +350,7 @@ nav .close-icon{
     border-radius: 14px;
     margin: 20px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .exames .row-card-item:hover{
@@ -382,8 +383,8 @@ nav .close-icon{
 
 .exames .row-card-item .play-button {
     position: absolute;
-    top: 30px; 
-    right: 30px; 
+    top: 30px; /* Ajuste a posição conforme necessário */
+    right: 30px; /* Ajuste a posição conforme necessário */
     padding: 10px 20px;
     border-radius: 10px;
     background: linear-gradient(to right, #ff8a00, #da1b60);
@@ -396,7 +397,7 @@ nav .close-icon{
 }
 
 
-
+/* Adicione estilos de hover para o botão de play se desejar */
 .exames .row-card-item .play-button:hover {
     color: #4f9cf9;
 }
@@ -446,10 +447,6 @@ nav .close-icon{
 
 
 .exames .none {
-    display: none;
-}
-
-.ytp-chrome-top, .ytp-show-cards-title, .ytp-shorts-title-channel, .ytp-title {
     display: none;
 }
 /*dados*/
